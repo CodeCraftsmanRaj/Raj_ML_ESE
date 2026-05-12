@@ -1,4 +1,4 @@
-from sklearn.tree import DecisionTreeRegressor
-from experiments_common import run_regression
+from sklearn.tree import DecisionTreeClassifier
+from experiments_common import run_classification
 
-run_regression(DecisionTreeRegressor(random_state=42), "Decision Tree")
+run_classification(DecisionTreeClassifier(random_state=42), "Decision Tree Classifier")

@@ -1,4 +1,4 @@
-from sklearn.svm import SVR
-from experiments_common import run_regression
+from sklearn.svm import SVC
+from experiments_common import run_classification
 
-run_regression(SVR(kernel="rbf"), "SVM (SVR)")
+run_classification(SVC(kernel="rbf", probability=False), "SVM Classifier")

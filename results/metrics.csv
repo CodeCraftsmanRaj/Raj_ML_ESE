@@ -1,0 +1,12 @@
+experiment,metrics_json
+Linear Regression,"{""rmse"": 19.747521886273347, ""r2"": 0.9628292540457273}"
+Decision Tree Classifier,"{""accuracy"": 0.6666666666666666}"
+KNN Classifier,"{""accuracy"": 0.8166666666666667}"
+SVM Classifier,"{""accuracy"": 0.8666666666666667}"
+Ensemble Bagging,"{""rmse"": 31.45674564106949, ""r2"": 0.9056800307716313}"
+Ensemble Boosting,"{""rmse"": 27.58248719403972, ""r2"": 0.9274824839876552}"
+K-Means,"{""silhouette"": 0.23438471803109787}"
+Expectation-Maximization (GMM),"{""silhouette"": 0.16736258713418076}"
+PCA,"{""shape0"": 300, ""shape1"": 2, ""explained_variance_sum"": 0.6790888874028475}"
+LDA,"{""shape0"": 300, ""shape1"": 2, ""explained_variance_sum"": 0.9999999999999999}"
+SVD,"{""shape0"": 300, ""shape1"": 2, ""explained_variance_sum"": 0.6790888874028462}"
